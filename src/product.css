@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+}
+
+@media (max-width: 1000px){
+    .picture {
+        width: 400px;
+        height: 400px;
+    }
+
+    .liste {
+        columns: 2;
+    }
+}
+
+@media (max-width: 1260px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1260px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1000px){
+
+    .picture {
+        width: 800px;
+        height: 800px;
+    }
+
+    .liste {
+        columns: 3;
+    }
+
+}
+
+
+
+.link {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.prix {
+    font-weight: bold;
+    color: #003399;
+    font-size: 2em;
+}
+
+.liste {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.span {
+    font-weight: bold;
+}
